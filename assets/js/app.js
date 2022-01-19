@@ -8,6 +8,16 @@ scrollUp.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+
+window.onscroll = function() {scrollFunction()};
+   
+   function scrollFunction() {
+     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+       scrollUp.style.display = "block";
+     } else {
+       scrollUp.style.display = "none";
+     }
+   }
    
 // Nav hamburgerburger selections
 
