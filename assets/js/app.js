@@ -1,5 +1,5 @@
 // scroll to top functionality
-const scrollUp = document.querySelector("#scroll-up");
+var scrollUp = document.getElementById("scroll-up");
 
 scrollUp.addEventListener("click", () => {
   window.scrollTo({
