@@ -2,13 +2,13 @@
 
 /* Variables */
 :root {
-  --font-family: "Roboto", sans-serf;
+ 
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #fcfcfc;
   --primary-color: #4756df;
-  --secondary-color: #ff7235;
+  --secondary-color: #ff4500;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
   --bottom-margin: 0.5rem;
@@ -17,6 +17,11 @@
   --transition: 0.1s;
 }
 /* Variables end */
+/*@font-face {
+  font-family: "SF";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}*/
 
 html {
   scroll-behavior: smooth;
@@ -44,9 +49,8 @@ a:hover {
 }
 
 body {
-  font-family: var(--font-family);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
-
 nav {
     position: sticky;
     top: 0;
@@ -61,15 +65,16 @@ nav {
 }
 
 nav h1 {
-    color: var(--primary-color);
+    color: #ff4500;
     /*border-bottom: 0px;*/
+    font-family: "San Fraisco";
 
     
     
 }
 
 .nav-h1 a:hover {
-  color: rgb(255, 0, 98);
+  color: #50fc00;
 }
 
 
@@ -141,11 +146,14 @@ text-align: justify;
 
 .bio h2{
   margin-bottom: var(--bottom-margin);
+  font-family: "San Francisco";
 }
 
 .bio p {
   line-height: var(--line-height);
   padding: 0.3rem 0;
+  letter-spacing: 0.08px;
+  
 }
 
 .more-about {
