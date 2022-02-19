@@ -17,11 +17,11 @@
   --transition: 0.1s;
 }
 /* Variables end */
-/*@font-face {
+@font-face {
   font-family: "SF";
   font-weight: 600;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
-}*/
+}
 
 html {
   scroll-behavior: smooth;
@@ -64,17 +64,20 @@ nav {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
 }
 
-nav h1 {
-    color: #ff4500;
+.logo-img{
+    width: 20em;
+    height: 2em;
+    margin: 0;
     /*border-bottom: 0px;*/
-    font-family: "San Fraisco";
+    /*font-family: "San Francisco";*/
 
     
     
 }
 
 .nav-h1 a:hover {
-  color: #50fc00;
+  color: #0bf0e5;
+  box-shadow: 2px 2px 5px 5px #cdcec6 ;   
 }
 
 
