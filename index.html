@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <!--css styles-->
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
 <!--favicons-->
     <link 
@@ -200,13 +201,13 @@
           </h2>
           <div class="contact-form-container">
             <div class="contact-form">
-              <form action="https://formspree.io/f/xvologny" method="POST">
+              <form action="https://send.pageclip.co/EdG8TtpXLABXrXaKtzOsfUzXMmMJ2quZ" method="POST">
                 <div class="form-control">
                   <label for="name">Name</label>
                   <input
                   type="text"
                   id="name"
-                  name="sender-name"
+                  name="Sender-name:"
                   placeholder="Enter Your Name"
                   class="input-field"
                   required
@@ -217,7 +218,7 @@
                     <input
                       type="email"
                       id="email"
-                      name="sender-email"
+                      name="Sender-email:"
                       placeholder="Enter Your Email"
                       class="input-field"
                       required
@@ -231,17 +232,14 @@
                     cols="60"
                     rows="10"
                     placeholder="Enter Your Message"
-                    name="message"
+                    name="Message:"
                     class="input-field"
                     required
                   ></textarea>
                 </div>
-                <input
-                  type="submit"
-                  value="submit"
-                  id="submit-btn"
-                  class="submit-btn"
-                />
+                <button type="submit" class="pageclip-form__submit">
+                  <span>Send</span>
+                </button>
                   
                   
               </form>
@@ -316,6 +314,8 @@
     <script
      nomodule
      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+     
     </script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
   </body>
 </html>
