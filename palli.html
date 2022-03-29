@@ -27,42 +27,18 @@
     <title>Harsha Vardhan | Web Developer</title>
     <style>
         .center {
+          color: rgb(0, 0, 0);
           text-align: center;
-          border: 3px solid #98ff07;
+          border-left: 8px solid #072cff;
           padding: 200px 0;
           margin-top: 10px;
-          font-size: 2em;
-        }
-        </style>
-    <script>
-      //some default pre init
-      var PB = PB || {};PB.q = PB.q || [];PB.events = PB.events || [];
-      
-      //PushBots ApplicationId (required)
-      PB.app_id = "6223bffa76334b02987d9663";
-      //Your domain name, must be HTTPS or localhost  (required)
-      PB.domain = "https://harshakanna.tech";
-      //Update and uncomment it if you are using custom safari certificate for your app
-      PB.safari_push_id = "web.com.pushbots.safaripush";
-      //****************************************
-      
-      PB.logging_enabled = true;
-      PB.auto_subscribe = true;
-      
-      //Custom worker and manifest URL
-      //PB.worker_url = PB.domain + "/pushbots-worker.js";
-      
-      //Welcome notification message
-      PB.welcome = {title:"Welcome ",message:"Thanks for subscribing!", url :PB.domain};
-      
-      function sendNotification(){
-            PB.register();
-            PB.q.push(["sendNotification", {title:"Hey ",message:"Why not?", url :"https://harshakanna.tech"}]);
-      }
-      
-      </script>
-      
-      <script src="//cdn.pushbots.com/js/sdk.min.js" type="text/javascript" onload="PB.init()" async></script>
+          font-size: 2.5em;
+          font-weight: bold;
+          border-radius: 4px;
+          background-color: rgba(8, 253, 221, 0.418);
+                  }
+    </style>
+    
       <script>
         setTimeout(myFunction, 3000);
         
@@ -152,7 +128,7 @@
       </section>
     -->
     <!--social accoounts- fixed to the right-->
-    <div class="socials">
+   <!-- <div class="socials">
       <a href="mailto:harsha@harshakanna.tech" target="_blank">
         <img
           src="assets/icons/email.png"
@@ -185,7 +161,7 @@
         class="socicon"
       />
       </a>
-    </div>
+    </div> -->
 
     <!--scroll to top-->
     <i class="scroll-up" id="scroll-up">
